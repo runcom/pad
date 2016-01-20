@@ -7,16 +7,17 @@ At the moment PAD is just an empty CMake project with a flex lexer and a bison p
 
 ## Requirements
 
-To play with this tool you need to have flex, bison and gcc, gcc-c++, make and cmake
+To play with this tool you need to have flex, bison, gcc, gcc-c++, make and cmake
 
-Fedora/CentOS/Rhel
+Fedora/CensOS/RHEL
+Replace `yum` with `dnf` on Fedora 22+ to get rid of the warning about using `dnf`:
 
-```
-sudo dnf install -y gcc gcc-c++ flex bison cmake make
+```sh
+sudo yum install -y gcc gcc-c++ flex bison cmake
 ```
 
 Debian/Ubuntu
-```bash
+```sh
 sudo apt-get install -y flex bison g++ cmake make
 ```
 
